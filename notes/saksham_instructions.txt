@@ -1,8 +1,0 @@
-Step 1: Activate virtualenv
-	
-	source mdp_env/bin/activate
-
-Step 2: Run the code 
-
- python run_experiment.py --plot
-
