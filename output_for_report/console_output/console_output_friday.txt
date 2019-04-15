@@ -1,0 +1,20 @@
+2019-04-12 21:56:35,744 - __main__ - INFO - Using seed 2513051845
+2019-04-12 21:56:35,744 - __main__ - INFO - Creating MDPs
+2019-04-12 21:56:35,744 - __main__ - INFO - ----------
+2019-04-12 21:56:35,761 - __main__ - INFO - Frozen Lake (8x8): State space: 64, Action space: 4
+2019-04-12 21:56:35,762 - __main__ - INFO - Frozen Lake (20x20): State space: 400, Action space: 4
+2019-04-12 21:56:35,762 - __main__ - INFO - Cliff Walking (4x12): State space: 48, Action space: 4
+2019-04-12 21:56:35,762 - __main__ - INFO - Running experiments
+2019-04-12 21:56:35,762 - __main__ - INFO - Running PI experiment: Frozen Lake (8x8)
+2019-04-12 21:56:45,598 - __main__ - INFO - Running PI experiment: Frozen Lake (20x20)
+2019-04-12 21:57:12,854 - __main__ - INFO - Running PI experiment: Cliff Walking (4x12)
+2019-04-12 21:57:25,772 - __main__ - INFO - Running VI experiment: Frozen Lake (8x8)
+2019-04-12 21:57:35,378 - __main__ - INFO - Running VI experiment: Frozen Lake (20x20)
+2019-04-12 21:58:07,818 - __main__ - INFO - Running VI experiment: Cliff Walking (4x12)
+2019-04-12 21:58:22,244 - __main__ - INFO - Running Q experiment: Frozen Lake (8x8)
+2019-04-12 22:07:41,846 - __main__ - INFO - Running Q experiment: Frozen Lake (20x20)
+2019-04-12 22:24:51,551 - __main__ - INFO - Running Q experiment: Cliff Walking (4x12)
+2019-04-12 22:40:38,901 - __main__ - INFO - {'VI': 56, 'PI': 50, 'Q': 2536}
+
+Note: Looking at the last line above (showing timing in seconds for each algorithm),
+PI < VI < Q as expected. the difference in VI and PI is not as significant as the other.
